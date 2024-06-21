@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+
+#input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#newTask {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#addbutton {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#Tasklist {
+    list-style: none;
+    padding: 0;
+}
+
+.Task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.Tasktext {
+    flex: 1;
+}
+
+.Task button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.editbutton {
+    background-color: #2196F3; /* Blue */
+    color: white;
+}
+
+.deletebutton {
+    background-color: #F44336; /* Red */
+    color: white;
+}
